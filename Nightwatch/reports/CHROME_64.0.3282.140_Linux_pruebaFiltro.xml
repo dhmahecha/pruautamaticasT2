@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="pruebaFiltro"
+    errors="0" failures="0" hostname="" id="" package="pruebaFiltro" skipped="0"
+    tests="1" time="20.84" timestamp="Wed, 14 Feb 2018 00:36:13 GMT">
+  
+    <testcase name="Pruebe los filtros por materia en la página de un profesor" classname="pruebaFiltro" time="20.84" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
