@@ -1,0 +1,14 @@
+
+Cypress/node_modules/
+
+webdriverio/node_modules/
+
+webdriverio/logs/
+
+webdriverio/errorShots/
+
+Cypress/cypress/videos/
+
+Cypress/cypress/screenshots/
+
+Nightwatch/reports/

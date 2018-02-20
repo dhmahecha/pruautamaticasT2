@@ -5,9 +5,9 @@
 
   <testsuite name="pruebaPaginaProfesor"
     errors="0" failures="0" hostname="" id="" package="pruebaPaginaProfesor" skipped="0"
-    tests="1" time="20.41" timestamp="Wed, 14 Feb 2018 00:36:34 GMT">
+    tests="1" time="23.35" timestamp="Mon, 19 Feb 2018 00:10:14 GMT">
   
-    <testcase name="Pruebe como dirigirse a la página de un profesor" classname="pruebaPaginaProfesor" time="20.41" assertions="4">
+    <testcase name="Pruebe como dirigirse a la página de un profesor" classname="pruebaPaginaProfesor" time="23.35" assertions="4">
 
     
 

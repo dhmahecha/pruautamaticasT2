@@ -5,9 +5,9 @@
 
   <testsuite name="pruebaFiltro"
     errors="0" failures="0" hostname="" id="" package="pruebaFiltro" skipped="0"
-    tests="1" time="20.84" timestamp="Wed, 14 Feb 2018 00:36:13 GMT">
+    tests="1" time="21.55" timestamp="Mon, 19 Feb 2018 00:09:52 GMT">
   
-    <testcase name="Pruebe los filtros por materia en la página de un profesor" classname="pruebaFiltro" time="20.84" assertions="5">
+    <testcase name="Pruebe los filtros por materia en la página de un profesor" classname="pruebaFiltro" time="21.55" assertions="5">
 
     
 

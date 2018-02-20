@@ -1,5 +1,11 @@
 exports.config = {
-
+    
+    // ...
+    services: ['selenium-standalone'],
+    services: ['chromedriver'],
+    // ...
+    // Options are set here as well
+    seleniumLogs: './logs',
     //
     // ==================
     // Specify Test Files
@@ -44,7 +50,11 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome'
+        browserName: 'chrome',
+
+	chromeOptions: {
+		args: [ "--headless", "--disable-gpu", "--window-size=800,600" ]
+	}
     }],
     //
     // ===================
@@ -80,7 +90,7 @@ exports.config = {
     baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 50000,
+    waitforTimeout: 10000,
     //
     // Default timeout in milliseconds for request
     // if Selenium Grid doesn't send response
@@ -129,7 +139,7 @@ exports.config = {
     jasmineNodeOpts: {
         //
         // Jasmine default timeout
-        defaultTimeoutInterval: 50000,
+        defaultTimeoutInterval: 1000000,
         //
         // The Jasmine framework allows interception of each assertion in order to log the state of the application
         // or website depending on the result. For example, it is pretty handy to take a screenshot every time
@@ -138,7 +148,7 @@ exports.config = {
             // do something
         }
     },
-
+    
     //
     // =====
     // Hooks
@@ -178,7 +188,7 @@ exports.config = {
      */
     // beforeCommand: function (commandName, args) {
     // },
-
+    
     /**
      * Hook that gets executed before the suite starts
      * @param {Object} suite suite details
@@ -215,7 +225,7 @@ exports.config = {
      */
     // afterSuite: function (suite) {
     // },
-
+    
     /**
      * Runs after a WebdriverIO command gets executed
      * @param {String} commandName hook command name
